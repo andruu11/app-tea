@@ -4,7 +4,7 @@ class Database extends PDO{
     
     public function __construct() {
         try{
-            parent::__construct('mysql:host=localhost;dbname=db_app','root','');
+            parent::__construct('mysql:host=localhost;dbname=db_tea','root','');
             parent::setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             
         } catch (Exception $ex) {
