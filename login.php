@@ -13,25 +13,17 @@
     </head>
     <body>
         <div class="container-fluid">
-       
                 <div class="row">
                     <div class="col-md-6 celeste">
-                        
                         <div class="contenido-celeste">
-                        
-                        </div>
                     </div>
-                    
+                    </div>
                     <div class="col-md-6 amarillo">
                         <a href="index.php" class="to_register">Volver</a>
                         <div class       ="card card card-container">
-                       
                              <img id          ="profile-img" class="profile-img-card" class="img-responsive" src="vista/assets/img/cop.png" />
-                            
                             <p id ="profile-name" class="profile-name-card"></p>
-                            
                             <form name       ="user" action="modelo/session_init.php" method="post">
-                              
                                 <label class="labels">Usuario :</label><br />
                                 <input type      ="text" name="usern" id="usern" class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Usuario" autocomplete="off" required autofocus/><br />
                                 <label class="labels">Contraseña :</label><br />

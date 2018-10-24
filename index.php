@@ -35,7 +35,7 @@
             <li><a href="tea.php">Evolución</a></li>
           </ul>
         </li>
-        <li><a href="contactos.php">Contactos</a></li>
+
         <li><a href="login.php">Iniciar Sesión</a></li>
             </ul>
         </div>
@@ -53,40 +53,25 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="vista/assets/img/op1.jpg" claas="img-responsive" alt="">
+      <img src="vista/assets/img/tea1.jpg" claas="img-responsive" alt="">
     </div>
 
     <div class="item">
-      <img src="vista/assets/img/op2.jpg" claas="img-responsive" alt="">
+      <img src="vista/assets/img/tea2.jpg" claas="img-responsive" alt="">
     </div>
 
     <div class="item">
-      <img src="vista/assets/img/op3.jpg" claas="img-responsive" alt="">
+      <img src="vista/assets/img/tea3.jpg" claas="img-responsive" alt="">
     </div>
   </div>
 </div>
 </div>
 <section class="resumen">
-  <div class="row">
-    <div class="container">
-      <div class="col-md-4 cuadro">
-        <h4 class="text-center">Titulo</h4>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat obcaecati quibusdam, ex, laudantium, voluptatibus odit harum rem voluptate aut vel veritatis aliquam numquam modi consequuntur sed nesciunt molestias ratione.</p>
-      </div>
-       <div class="col-md-4 cuadro">
-        <h4 class="text-center">Titulo</h4>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat obcaecati quibusdam, ex, laudantium, voluptatibus odit harum rem voluptate aut vel veritatis aliquam numquam modi consequuntur sed nesciunt molestias ratione.</p>
-      </div>
-       <div class="col-md-4 cuadro">
-        <h4 class="text-center">Titulo</h4>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat obcaecati quibusdam, ex, laudantium, voluptatibus odit harum rem voluptate aut vel veritatis aliquam numquam modi consequuntur sed nesciunt molestias ratione.</p>
-      </div>
-    </div>
-  </div>
+  
 </section>
 <footer class="footer">
     <div class="container">
-        <p class="text-center"> &copy; Jhassir Candia 2018</p>
+        <p class="text-center"> &copy; FATA 2018</p>
     </div>
 </footer>
 
