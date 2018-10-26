@@ -27,9 +27,9 @@
                             <form name       ="user" action="modelo/session_init.php" method="post">
                               
                                 <label class="labels">Usuario :</label><br />
-                                <input type      ="text" name="usern" id="usern" class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Usuario" autocomplete="off" required autofocus/><br />
+                                <input type      ="text" name="usuario" id="usuario" class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Usuario" autocomplete="off" required autofocus/><br />
                                 <label class="labels">Contraseña :</label><br />
-                                <input type      ="password" name="passwd" id="passwd"  class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Contraseña" autocomplete="off" required/><br />
+                                <input type      ="password" name="password" id="password"  class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Contraseña" autocomplete="off" required/><br />
                                 <input type      ="submit" name="enter" id="enter" value="Iniciar Sesion" class="btn btn-signin btn-block btn-info" />  <br>
                             </form>
                         </div>
