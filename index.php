@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title></title>
+        <title>FATA - Inicio</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="vista/assets/css/main-page.css" rel="stylesheet">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
     </head>
     <body>
+   
     <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header"><img src="vista/assets/img/logoteas.svg" alt="" height="50px">
@@ -33,7 +35,7 @@
             <li><a href="tea.php">Evolución</a></li>
           </ul>
         </li>
-        <li><a href="contactos.php">Contactos</a></li>
+
         <li><a href="login.php">Iniciar Sesión</a></li>
             </ul>
         </div>
@@ -51,40 +53,25 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="vista/assets/img/op1.jpg" claas="img-responsive" alt="">
+      <img src="vista/assets/img/tea1.jpg" claas="img-responsive" alt="">
     </div>
 
     <div class="item">
-      <img src="vista/assets/img/op2.jpg" claas="img-responsive" alt="">
+      <img src="vista/assets/img/tea2.jpg" claas="img-responsive" alt="">
     </div>
 
     <div class="item">
-      <img src="vista/assets/img/op3.jpg" claas="img-responsive" alt="">
+      <img src="vista/assets/img/tea3.jpg" claas="img-responsive" alt="">
     </div>
   </div>
 </div>
 </div>
 <section class="resumen">
-  <div class="row">
-    <div class="container">
-      <div class="col-md-4 cuadro">
-        <h4 class="text-center">Titulo</h4>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat obcaecati quibusdam, ex, laudantium, voluptatibus odit harum rem voluptate aut vel veritatis aliquam numquam modi consequuntur sed nesciunt molestias ratione.</p>
-      </div>
-       <div class="col-md-4 cuadro">
-        <h4 class="text-center">Titulo</h4>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat obcaecati quibusdam, ex, laudantium, voluptatibus odit harum rem voluptate aut vel veritatis aliquam numquam modi consequuntur sed nesciunt molestias ratione.</p>
-      </div>
-       <div class="col-md-4 cuadro">
-        <h4 class="text-center">Titulo</h4>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat obcaecati quibusdam, ex, laudantium, voluptatibus odit harum rem voluptate aut vel veritatis aliquam numquam modi consequuntur sed nesciunt molestias ratione.</p>
-      </div>
-    </div>
-  </div>
+  
 </section>
 <footer class="footer">
     <div class="container">
-        <p class="text-center"> &copy; Jhassir Candia 2018</p>
+        <p class="text-center"> &copy; FATA 2018</p>
     </div>
 </footer>
 
