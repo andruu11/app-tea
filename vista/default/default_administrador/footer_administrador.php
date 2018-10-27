@@ -1,6 +1,5 @@
 <footer class="app-footer">
-        <span><a href="http://www.incanatoit.com/">IncanatoIT</a> &copy; 2017</span>
-        <span class="ml-auto">Desarrollado por <a href="http://www.incanatoit.com/">IncanatoIT</a></span>
+        
     </footer>
 
     <!-- Bootstrap and necessary plugins -->
@@ -12,6 +11,15 @@
     <script src="../../assets/js/Chart.min.js"></script>
     <!-- GenesisUI main scripts -->
     <script src="../../assets/js/template.js"></script>
+
+     <script src="../../assets/sidebar/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="../../assets/sidebar/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../../assets/sidebar/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../../assets/sidebar/js/sb-admin.min.js"></script>
 </body>
 
 </html>

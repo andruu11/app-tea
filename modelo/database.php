@@ -3,7 +3,7 @@
 class Database extends PDO{
     public function __construct() {
         try{
-            parent::__construct('mysql:host=localhost;dbname=bd_tea','jhass','12345');
+            parent::__construct('mysql:host=localhost;dbname=bd_tea','jhass','123');
             parent::setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (Exception $ex) {
             echo $ex . '<br>';
