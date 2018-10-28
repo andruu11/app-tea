@@ -1,20 +1,9 @@
-<!-- Bootstrap core CSS-->
-<link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Custom fonts for this template-->
-<link href="../../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-<!-- Page level plugin CSS-->
-<link href="../../assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
-
-<!-- Custom styles for this template-->
-<link href="../../assets/css/sb-admin.css" rel="stylesheet">
 
 <body id="page-top">
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
+    <a class="navbar-brand mr-1" href="index.html">Bienvenido</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -34,10 +23,11 @@
 
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto ml-md-0">
+        <!--BOTON DE CAMPANA-->
         <li class="nav-item dropdown no-arrow mx-1">
         <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bell fa-fw"></i>
-            <span class="badge badge-danger">9+</span>
+            <span class="badge badge-danger"><!--parece notificación de mensaje 9+--></span>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -46,10 +36,11 @@
             <a class="dropdown-item" href="#">Something else here</a>
         </div>
         </li>
+        <!--BOTON DE MENSAJE-->
         <li class="nav-item dropdown no-arrow mx-1">
         <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-envelope fa-fw"></i>
-            <span class="badge badge-danger">7</span>
+            <span class="badge badge-danger"><!--parece notificación de perfil 7--></span>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -58,9 +49,11 @@
             <a class="dropdown-item" href="#">Something else here</a>
         </div>
         </li>
+        <!--BOTON DE PERFIL-->
         <li class="nav-item dropdown no-arrow">
         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user-circle fa-fw"></i>
+            <!--no tiene notificación-->
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item" href="#">Settings</a>
@@ -80,34 +73,34 @@
         <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span>
+            <span>INICIO</span>
         </a>
         </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Pages</span>
+            <span>Repositorio</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-            <h6 class="dropdown-header">Login Screens:</h6>
-            <a class="dropdown-item" href="login.html">Login</a>
-            <a class="dropdown-item" href="register.html">Register</a>
-            <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+            <h6 class="dropdown-header">Explorar</h6>
+            <a class="dropdown-item" href="login.html">Academicos</a>
+            <a class="dropdown-item" href="register.html">Didacticos</a>
+            <a class="dropdown-item" href="forgot-password.html">Activos</a>
             <div class="dropdown-divider"></div>
-            <h6 class="dropdown-header">Other Pages:</h6>
-            <a class="dropdown-item" href="404.html">404 Page</a>
-            <a class="dropdown-item active" href="blank.html">Blank Page</a>
+            <h6 class="dropdown-header">Mis repositorios</h6>
+            <a class="dropdown-item" href="404.html">Ver</a>
+            <a class="dropdown-item active" href="blank.html">Nuevo</a>
         </div>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="charts.html">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <span>Reportes</span></a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="tables.html">
             <i class="fas fa-fw fa-table"></i>
-            <span>Tables</span></a>
+            <span>Extra</span></a>
         </li>
     </ul>
 
@@ -124,9 +117,9 @@
         </ol>
 
         <!-- Page Content -->
-        <h1>Blank Page</h1>
+        <h1>Ventana Principal ADMIN</h1>
         <hr>
-        <p>This is a great starting point for new custom pages.</p>
+        <p>INICIO, NOTICIAS ETC</p>
 
         </div>
         <!-- /.container-fluid -->
@@ -135,7 +128,7 @@
         <footer class="sticky-footer">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-            <span>Copyright © Your Website 2018</span>
+            <span>Contactos: nuestros correos etc etc</span>
             </div>
         </div>
         </footer>
@@ -145,18 +138,6 @@
 
     </div>
     <!-- /#wrapper -->
-   
-   
-    <!-- Bootstrap core JavaScript-->
-    <script src="../../assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="../../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="../../assets/js/sb-admin.min.js"></script>
-
        
     
 

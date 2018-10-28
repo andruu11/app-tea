@@ -22,39 +22,18 @@
         </div>
       </div>
     </div>
-<!-- Bootstrap and necessary plugins -->
-    <script src="../../assets/js/jquery.min.js"></script>
+    
+    <!-- Bootstrap and necessary plugins -->
+    <!-- <script src="../../assets/js/jquery.min.js"></script>
     <script src="../../assets/js/popper.min.js"></script>
     <script src="../../assets/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/pace.min.js"></script>
-<!-- Plugins and scripts required by all views -->
-    <script src="../../assets/js/Chart.min.js"></script>
-<!-- GenesisUI main scripts -->
-    <script src="../../assets/js/template.js"></script>
+    <script src="../../assets/js/pace.min.js"></script> -->
 
-    <script src="../../assets/vendor/jquery/jquery.slim.min.js"></script>
-    <!-- Bootstrap core CSS-->
-    <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Plugins and scripts required by all views -->
+   <!--  <script src="../../assets/js/Chart.min.js"></script>-->
 
-    <!-- Custom fonts for this template-->
-    <link href="../../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Page level plugin CSS-->
-    <link href="../../assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
-
-    <!-- Custom styles for this template-->
-    <link href="../../assets/css/sb-admin.css" rel="stylesheet">  
-
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="../../assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="../../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="../../assets/js/sb-admin.min.js"></script>
+    <!-- GenesisUI main scripts -->
+   <!--  <script src="../../assets/js/template.js"></script> -->
 
 
   </body>
