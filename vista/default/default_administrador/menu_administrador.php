@@ -3,7 +3,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Bienvenido</a>
+    <a class="navbar-brand mr-1" href="">Bienvenido</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -43,10 +43,10 @@
             <span class="badge badge-danger"><!--parece notificación de perfil 7--></span>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="">Action</a>
+            <a class="dropdown-item" href="">Another action</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="">Something else here</a>
         </div>
         </li>
         <!--BOTON DE PERFIL-->
@@ -56,7 +56,7 @@
             <!--no tiene notificación-->
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item" href="#">Mi Perfil</a>
             <a class="dropdown-item" href="#">Activity Log</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
@@ -89,7 +89,7 @@
             <div class="dropdown-divider"></div>
             <h6 class="dropdown-header">Mis repositorios</h6>
             <a class="dropdown-item" href="404.html">Ver</a>
-            <a class="dropdown-item active" href="blank.html">Nuevo</a>
+            <a class="dropdown-item" href="blank.html">Nuevo</a>
         </div>
         </li>
         <li class="nav-item">
@@ -108,13 +108,13 @@
 
         <div class="container-fluid">
 
-        <!-- Breadcrumbs-->
+        <!-- Breadcrumbs--
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
             <a href="index.html">Dashboard</a>
             </li>
             <li class="breadcrumb-item active">Blank Page</li>
-        </ol>
+        </ol>-->
 
         <!-- Page Content -->
         <h1>Ventana Principal ADMIN</h1>
@@ -122,13 +122,13 @@
         <p>INICIO, NOTICIAS ETC</p>
 
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container-fluid 
 
         <!-- Sticky Footer -->
         <footer class="sticky-footer">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-            <span>Contactos: nuestros correos etc etc</span>
+            <span>Contactos: nuestros correos etc </span>
             </div>
         </div>
         </footer>

@@ -3,7 +3,6 @@ require_once("../../default/default_administrador/main_administrador.php");
 require_once("../../default/default_administrador/header_administrador.php");
 require_once("../../default/default_administrador/menu_administrador.php");
 require_once("../../default/default_administrador/footer_administrador.php");
-
 ?>
 
     <!-- Bootstrap core CSS-->
@@ -21,7 +20,6 @@ require_once("../../default/default_administrador/footer_administrador.php");
 
 
 
-
     <!-- Bootstrap core JavaScript-->
     <script src="../../assets/vendor/jquery/jquery.min.js"></script>
     <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -32,4 +30,6 @@ require_once("../../default/default_administrador/footer_administrador.php");
     <!-- Custom scripts for all pages-->
     <script src="../../assets/js/sb-admin.min.js"></script>
    
-   
+  <?php
+  echo("hola");
+  ?>
