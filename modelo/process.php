@@ -17,5 +17,5 @@ if($row['nombre_cuenta'] == $username && $row['pass_cuenta'] == $password){
     
 }
 else {
-    echo 'fallo!';
+    echo 'falloo!';
 }
