@@ -122,7 +122,7 @@
         <p>INICIO, NOTICIAS ETC</p>
 
         </div>
-        <!-- /.container-fluid 
+        <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
         <footer class="sticky-footer">

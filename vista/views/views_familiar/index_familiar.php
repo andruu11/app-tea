@@ -5,9 +5,9 @@
 
 <?php
 require_once("../../default/default_familiar/main_familiar.php");
-require_once("../../default/default_administrador/header_administrador.php");
-require_once("../../default/default_administrador/menu_administrador.php");
-require_once("../../default/default_administrador/footer_administrador.php");
+require_once("../../default/default_familiar/header_familiar.php");
+require_once("../../default/default_familiar/menu_familiar.php");
+require_once("../../default/default_familiar/footer_familiar.php");
 
 ?>
 

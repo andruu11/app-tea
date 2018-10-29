@@ -30,6 +30,4 @@ require_once("../../default/default_administrador/footer_administrador.php");
     <!-- Custom scripts for all pages-->
     <script src="../../assets/js/sb-admin.min.js"></script>
    
-  <?php
-  echo("hola");
-  ?>
+ 

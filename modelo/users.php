@@ -15,11 +15,12 @@
                                         $sth                                 = $this->objDb->prepare('SELECT * FROM `usuario` INNER JOIN tipo_usuario ON usuario.id_tipo_usuario = tipo_usuario.id_tipo_usuario 
                                                                                                     INNER JOIN cuenta ON cuenta.id_cuenta = usuario.id_cuenta 
                                                                                                     INNER JOIN persona ON persona.id_persona = usuario.id_persona 
-                                                                                                    WHERE usuario.password = :pass AND usuario.usuario = :email');
+                                                                                                    WHERE usuario.password = :pass AND usuario.usuario = :usu');
                                         $password                            =$_POST["password"];
                                         $pass                                =$_POST["password"];
                                         //$pass                                =sha1(md5($password));
-                                        $sth->bindParam(':email', $_POST["usuario"]);
+                                        
+                                        $sth->bindParam(':usu', $_POST["usuario"]);
                                         $sth->bindParam(':pass',$pass);
                                         $sth->execute();
                                         $result                              = $sth->fetchAll();

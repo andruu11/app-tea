@@ -4,10 +4,10 @@
 ?>-->
 
 <?php
-require_once("../../default/default_administrador/main_administrador.php");
-require_once("../../default/default_administrador/header_administrador.php");
-require_once("../../default/default_administrador/menu_administrador.php");
-require_once("../../default/default_administrador/footer_administrador.php");
+require_once("../../default/default_tutor/main_tutor.php");
+require_once("../../default/default_tutor/header_tutor.php");
+require_once("../../default/default_tutor/menu_tutor.php");
+require_once("../../default/default_tutor/footer_tutor.php");
 
 ?>
 
