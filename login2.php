@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="vista/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vista/assets/fonts/simple-line-icons.min.css">
 </head>
+<?php $nom_cuenta = $_POST['nombre_cuenta']; ?>
 <body>
 	<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
 		
         <div class="container">
-	        <h2 class="text-info">"Nombre de la cuenta"</h2>
+	        <h2 class="text-info"><?php echo $nom_cuenta; ?></h2>
         </div>
         <div class="block-heading">
         	<a class="navbar-brand logo" href="#">Añadir Usuario</a>
