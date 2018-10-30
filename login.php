@@ -23,9 +23,9 @@
                              <img id          ="profile-img" class="profile-img-card" class="img-responsive" src="vista/assets/img/cop.png" />
                             <p id ="profile-name" class="profile-name-card"></p>
                             <form name       ="user" action="modelo/process.php" method="post">
-                                <label class="labels">Usuario :</label>
+                                <label class="labels">Cuenta :</label>
                                 <br />
-                                <input type      ="text" name="usuario" id="usuario" class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Usuario" autocomplete="off" required autofocus/>
+                                <input type      ="text" name="usuario" id="usuario" class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Cuenta" autocomplete="off" required autofocus/>
                                 <br />
                                 <label class="labels">Contraseña :</label>
                                 <br />
@@ -47,7 +47,7 @@
                                 <br>
                                 <div class="separator">
                                     <p class="change_link" id="log">Nuev@?
-                                     <a href="login2.php" class="to_register">Regístrate</a>
+                                     <a href="modal_registro.php" class="to_register">Regístrate</a>
                                     </p>
                             </form>
                         </div>
