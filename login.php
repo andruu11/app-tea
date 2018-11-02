@@ -47,8 +47,8 @@
                                 <br>
                                 <div class="separator">
                                     <p class="change_link" id="log">Nuev@?
-                                     <a href="modal_registro.php" class="to_register">Regístrate</a>
-                                    </p>
+                                        <a href="modal_registro.php" class="to_register">Regístrate</a>
+                                     
                             </form>
                         </div>
                     </div>

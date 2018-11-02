@@ -41,7 +41,10 @@
                                         $this->objSe->set('apellidos', $result[0]['apellidos']);
                                         $this->objSe->set('correos', $result[0]['correos']);
                                         $this->objSe->set('id_cuenta', $result[0]['id_cuenta']);
-                                        header('Location: ../vista/views/views_administrador/index_administrador.php');
+                                        //header('Location: ../vista/views/views_administrador/index_administrador.php');
+                                        header('Location: ../tea/vista/views/views_sadministrador/index_sadministrador.php');
+                                        //href = "../farmacita/vista/views/views_sadministrador/index_sadministrador.php";
+                                        
                                         break;
 
 

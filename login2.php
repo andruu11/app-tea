@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="vista/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vista/assets/fonts/simple-line-icons.min.css">
 </head>
-<?php $nom_cuenta = $_POST['nombre_cuenta']; ?>
+
 <body>
-	<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-		
+    <?php $nombre_cuenta = $_POST['nombre_cuenta']; ?>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        
         <div class="container">
-	        <h2 class="text-info"><?php echo $nom_cuenta; ?></h2>
+            <h4 class="text-info"><?php $nombre_cuenta; ?></h4>
         </div>
         <div class="block-heading">
-        	<a class="navbar-brand logo" href="#">Añadir Usuario</a>
-	        <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
-	        	<span class="sr-only">Toggle navigation</span>
-	        	<span class="navbar-toggler-icon"></span>
-	        </button> 
+            <a class="navbar-brand logo" href="#">Añadir Usuario</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button> 
         </div>
     </nav>
     
