@@ -16,7 +16,7 @@
             <h4 class="text-info"><?php $nombre_cuenta; ?></h4>
         </div>
         <div class="block-heading">
-            <a class="navbar-brand logo" href="#">Añadir Usuario</a>
+            <a class="navbar-brand logo" href="">Añadir Usuario</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="navbar-toggler-icon"></span>
