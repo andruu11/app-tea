@@ -51,6 +51,9 @@
                             </form>
                         </div>
                     </div>
+                <?php
+                for($i=1;$i<=9;$i++){
+                    ?>
                     <div class="col-md-6 col-lg-4">
                         <div class="card"><img class="card-img-top w-100 d-block" src="vista/assets/img/avatars/7.jpg">
                             <form name="user" action="modelo/session_init.php" method="post">
