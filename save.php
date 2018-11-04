@@ -32,10 +32,10 @@ if(isset($_POST['save'])){
     $stat1->bindParam(5, $ciudad);
     $stat1->execute();
 
-    $sql = ("SELECT count(*) FROM `persona` WHERE 1");
-    $result = $bd->prepare($sql); 
-    $result->execute(); 
-    $id2 = $result->fetchColumn();
+    $stmt = $db->prepare("select b.id_persona from persona b where correos=:mail ");
+    $stmt->execute(['mail' => $correos]);
+    $recuperar = $stmt->fetch();
+    $id2 = $recuperar['id_persona'];
 
     $stat2 = $db->prepare("insert into cuenta values(?,?,?,?,?,?)");
     $stat2->bindParam(1, $id);
@@ -46,12 +46,10 @@ if(isset($_POST['save'])){
     $stat2->bindParam(6, $intent);
     $stat2->execute();
 
-    $sql2 = "SELECT count(*) FROM `cuenta` WHERE 1";
-    $result2 = $bd->prepare($sql2); 
-    $result2->execute(); 
-    $id1 = $result2->fetchColumn();
-    $id1 = 7;
-    $id2 = 8;
+    $stmt2 = $db->prepare("select b.id_cuenta from cuenta b where nombre_cuenta=:cu ");
+    $stmt2->execute(['cu' => $cuenta]);
+    $recuperar2 = $stmt2->fetch();
+    $id1 = $recuperar2['id_cuenta'];
 
     $stat3 = $db->prepare("insert into usuario values(?,?,?,?,?,?,?,?)");
     $stat3->bindParam(1, $id);
@@ -80,7 +78,7 @@ if(isset($_POST['save'])){
     
     <div class="container-fluid">
         <p><br/></p>
-        <h3>Data Manager</h3>
+        <h3>Data Manager al fin tuviste exito</h3>
         <!--
         <table class="table table-bordered table-striped">
             <thead>
