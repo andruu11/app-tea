@@ -62,7 +62,7 @@ if(isset($_POST['save'])){
     $stat3->bindParam(8, $id2);
     $stat3->execute();
 
-    header('Location: save.php');
+    header('Location: login.php');
 }
 ?>
 <!DOCTYPE html>

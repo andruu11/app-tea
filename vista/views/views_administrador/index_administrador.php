@@ -18,7 +18,7 @@ require_once("../../default/default_administrador/footer_administrador.php");
     <link href="../../assets/css/sb-admin.css" rel="stylesheet">
     <script src="../../assets/vendor/jquery/jquery.slim.min.js"></script>
 
-
+    
 
     <!-- Bootstrap core JavaScript-->
     <script src="../../assets/vendor/jquery/jquery.min.js"></script>
@@ -30,4 +30,3 @@ require_once("../../default/default_administrador/footer_administrador.php");
     <!-- Custom scripts for all pages-->
     <script src="../../assets/js/sb-admin.min.js"></script>
    
- 

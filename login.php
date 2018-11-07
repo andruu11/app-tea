@@ -22,14 +22,14 @@
                         <div class       ="card card card-container">
                              <img id          ="profile-img" class="profile-img-card" class="img-responsive" src="vista/assets/img/cop.png" />
                             <p id ="profile-name" class="profile-name-card"></p>
-                            <form name       ="user" action="modelo/process.php" method="post">
+                            <form name       ="user" action="login2.php" method="post">
                                 <label class="labels">Cuenta :</label>
                                 <br />
-                                <input type      ="text" name="usuario" id="usuario" class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Cuenta" autocomplete="off" required autofocus/>
+                                <input type      ="text" name="cuenta" class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Cuenta" autocomplete="off" required autofocus/>
                                 <br />
                                 <label class="labels">Contraseña :</label>
                                 <br />
-                                <input type      ="password" name="password" id="password"  class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Contraseña" autocomplete="off" required/>
+                                <input type      ="password" name="password"  class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Contraseña" autocomplete="off" required/>
                                 <br />
                                 <?php
                                     $cont=3;

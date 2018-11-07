@@ -74,7 +74,7 @@
                             <h4>Ingrese sus datos personales</h4>
                             <div class="form-group">
                                 <label>Nombres:</label>
-                                <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre completo prro >:v"/>
+                                <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre completo"/>
                             </div>
 
                             <!--apellidos-->
