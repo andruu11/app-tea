@@ -57,9 +57,9 @@
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item" href="#">Mi Perfil</a>
-            <a class="dropdown-item" href="#">Activity Log</a>
+            <a class="dropdown-item" href="#">Usuarios</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Cerrar sesión</a>
         </div>
         </li>
     </ul>
@@ -104,37 +104,64 @@
         </li>
     </ul>
 
-    <div id="content-wrapper">
+        <div id="content-wrapper">
 
-        <div class="container-fluid">
+            <div class="container-fluid">
 
-        <!-- Breadcrumbs--
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-            <a href="index.html">Dashboard</a>
-            </li>
-            <li class="breadcrumb-item active">Blank Page</li>
-        </ol>-->
 
-        <!-- Page Content -->
-        <h1>Ventana Principal ADMIN</h1>
-        <hr>
-        <p>INICIO, NOTICIAS ETC</p>
-
-        </div>
-        <!-- /.container-fluid -->
-
-        <!-- Sticky Footer -->
-        <footer class="sticky-footer">
-        <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-            <span>Contactos: nuestros correos etc </span>
+                <!-- Page Content -->
+                <h1>Ventana Principal ADMIN/ INICIO</h1>
+                <hr>
+                <p>INICIO, NOTICIAS ETC</p>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Address</th>
+                            <th>Username</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Website</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                        $db = new PDO("mysql:host=localhost;dbname=bd_tea","root","");
+                        $stmt = $db->prepare("select a.nombres, a.apellidos, a.correos, b.usuario, b.pin, c.nombre_cuenta, from persona a, usuario b, cuenta c where c.id_cuenta=b.id_cuenta and a.id_persona=b.id_persona");
+                        $stmt->execute();
+                        while($row = $stmt->fetch()){
+                        ?>
+                        <tr>
+                            <td><?php echo $row['nombres'] ?></td>
+                            <td><?php echo $row['apellidos'] ?></td>
+                            <td><?php echo $row['correos'] ?></td>
+                            <td><?php echo $row['usuario'] ?></td>
+                            <td><?php echo $row['pin'] ?></td>
+                            <td><?php echo $row['nombre_cuenta'] ?></td>
+                        </tr>
+                        <?php
+                        }
+                        ?>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        </footer>
+            <!-- /.container-fluid -->
 
-    </div>
-    <!-- /.content-wrapper -->
+            <!-- Sticky Footer -->
+            <footer class="sticky-footer">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                <span>Contactos: nuestros correos etc </span>
+                </div>
+            </div>
+            </footer>
+
+        </div>
+        <!-- /.content-wrapper -->
 
     </div>
     <!-- /#wrapper -->

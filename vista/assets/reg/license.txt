@@ -1,5 +1,7 @@
 TERMINOS Y CONDICIONES DE USO DE LA PAGINA Y SUS DOCUMENTOS.
 
+echo "No nos repruebe inge, estamos haciendo lo mejor que podemos :'v";
+
 1. Definiciones.
 
 "Licencia" significará los términos y condiciones de uso, reproducción y distribución tal como se definen en las Secciones 1 a 9 de este documento.
