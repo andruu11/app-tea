@@ -26,6 +26,7 @@
                                         $result                              = $sth->fetchAll();
                                         if($result) {
                                         $profile                             = $result[0]['des_tipo_usuario'];
+                                        $_SESSION['esteusuario'] = $result[0]['usuario'];
                                         switch($profile){
 
                                         //Caso del administrador
