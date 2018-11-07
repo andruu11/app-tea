@@ -32,7 +32,12 @@
                                 <input type      ="password" name="password"  class="form-control" minlength="3" maxlength="10" placeholder="Ingrese su Contraseña" autocomplete="off" required/>
                                 <br />
                                 <?php
-                                    $cont=3;
+                                $cont=3;
+                                    /*$db = new PDO("mysql:host=localhost;dbname=bd_tea","root","");
+                                    $stmt = $db->prepare("select intentos from cuenta where nombre_cuenta=:nc ");
+                                    $stmt->execute(['nc' => $correos]);
+                                    $recuperar = $stmt->fetch();
+                                    $id2 = $recuperar['id_persona'];*/
                                 ?>
                                 <input 
                                     <?php

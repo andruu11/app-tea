@@ -20,6 +20,7 @@
                 <div class="block-heading">
                     <h2 class="text-info">Registrate</h2>
                     <p>Por favor llena tus datos en los siguentes campos para registrar tu cuenta.</p>
+                    <a style="padding-right: 450px"; href="login.php" class="to_register">Volver</a>
                 </div>
                 
                     <form action="save.php" method="post">
