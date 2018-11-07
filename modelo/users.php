@@ -15,7 +15,7 @@
                                         $sth                                 = $this->objDb->prepare('SELECT * FROM `usuario` INNER JOIN tipo_usuario ON usuario.id_tipo_usuario = tipo_usuario.id_tipo_usuario 
                                                                                                     INNER JOIN cuenta ON cuenta.id_cuenta = usuario.id_cuenta 
                                                                                                     INNER JOIN persona ON persona.id_persona = usuario.id_persona 
-                                                                                                    WHERE usuario.password = :pass AND usuario.usuario = :usu');
+                                                                                                    WHERE usuario.pin = :pass AND usuario.usuario = :usu');
                                         $password                            =$_POST["password"];
                                         $pass                                =$_POST["password"];
                                         //$pass                                =sha1(md5($password));
@@ -41,10 +41,10 @@
                                         $this->objSe->set('apellidos', $result[0]['apellidos']);
                                         $this->objSe->set('correos', $result[0]['correos']);
                                         $this->objSe->set('id_cuenta', $result[0]['id_cuenta']);
-                                        //header('Location: ../vista/views/views_administrador/index_administrador.php');
-                                        header('Location: ../tea/vista/views/views_sadministrador/index_sadministrador.php');
-                                        //href = "../farmacita/vista/views/views_sadministrador/index_sadministrador.php";
                                         
+                                        
+                                       
+                                        header('Location: ../vista/views/views_administrador/index_administrador.php');
                                         break;
 
 
@@ -62,7 +62,9 @@
                                         $this->objSe->set('correos', $result[0]['correos']);
                                         $this->objSe->set('id_cuenta', $result[0]['id_cuenta']);
                                         header('Location: ../vista/views/views_tutor/index_tutor.php');
+                                       // header('Location: ../../../../farmacita/vista/views/views_sadministrador/index_sadministrador.php');
                                         break;
+
 
 
                                         //Caso Familiar

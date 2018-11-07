@@ -18,9 +18,11 @@
         <section class="clean-block clean-form dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">Registrate</h2>
+                    <h2 class="text-info">Registra tu Cuenta</h2>
                     <p>Por favor llena tus datos en los siguentes campos para registrar tu cuenta.</p>
+                    <div style =  "padding-right: 450px"; ><a href="login.php" class="to_register">Volver</a></div>
                 </div>
+                
                 
                     <form action="save.php" method="post">
                         <div class="wizards">

@@ -45,14 +45,16 @@
                                 type="submit" name="enter" id="enter" value="Iniciar Sesion" class="btn btn-signin btn-block btn-info" />
                                     
                                 <br>
+                                <br>
                                 <div class="separator">
                                     <p class="change_link" id="log">Nuev@?
-                                        <a href="registro.php" class="to_register">Regístrate</a>
-                                     
+                                        <form style = "margin-top : 0px;">
+                                        <a class="btn">Regístrate</div>
+                                        </form>
                             </form>
                         </div>
                     </div>
-                
+                 
             </div>
         </div>
     </body>

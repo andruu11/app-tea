@@ -1,4 +1,5 @@
 <?php
+
 $username=$_POST ['usuario'];
 $password=$_POST ['password'];
 $username=stripcslashes($username);
